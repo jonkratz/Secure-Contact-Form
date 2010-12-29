@@ -72,7 +72,7 @@ session_start();
 		//VARIABLES
 		$mail->From       = strip_tags($email);
 		$mail->FromName   = strip_tags($name);
-		$mail->Subject    = "Website Contact - " . date('D, M n, Y');
+		$mail->Subject    = "Website Contact - " . date('D, M j, Y');
 		$mail->AltBody    = stripslashes(htmlentities($comment));
 		$mail->WordWrap   = 50;
 		
